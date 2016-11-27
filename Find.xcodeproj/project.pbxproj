@@ -7,13 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54037F231B706B0600C73B75 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54037F221B706B0600C73B75 /* TwoViewController.m */; };
+		54037F261B708CBA00C73B75 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54037F251B708CBA00C73B75 /* RootViewController.m */; };
+		54037F281B7095D700C73B75 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54037F271B7095D700C73B75 /* AVFoundation.framework */; };
+		54037F2B1B7099AD00C73B75 /* TwoGoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54037F2A1B7099AD00C73B75 /* TwoGoViewController.m */; };
+		5430E29F1B7CAA3B006CBB58 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2901B7CAA3B006CBB58 /* image.png */; };
+		5430E2A01B7CAA3B006CBB58 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2911B7CAA3B006CBB58 /* image1.png */; };
+		5430E2A11B7CAA3B006CBB58 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2921B7CAA3B006CBB58 /* image2.png */; };
+		5430E2A21B7CAA3B006CBB58 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2931B7CAA3B006CBB58 /* image3.png */; };
+		5430E2A31B7CAA3B006CBB58 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2941B7CAA3B006CBB58 /* left.png */; };
+		5430E2A41B7CAA3B006CBB58 /* lian.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2951B7CAA3B006CBB58 /* lian.png */; };
+		5430E2A51B7CAA3B006CBB58 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2961B7CAA3B006CBB58 /* logo.png */; };
+		5430E2A61B7CAA3B006CBB58 /* pinglun.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2971B7CAA3B006CBB58 /* pinglun.png */; };
+		5430E2A71B7CAA3B006CBB58 /* qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2981B7CAA3B006CBB58 /* qr_scan_line@2x.png */; };
+		5430E2A81B7CAA3B006CBB58 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E2991B7CAA3B006CBB58 /* right.png */; };
+		5430E2A91B7CAA3B006CBB58 /* sao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E29A1B7CAA3B006CBB58 /* sao.png */; };
+		5430E2AA1B7CAA3B006CBB58 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E29B1B7CAA3B006CBB58 /* star.png */; };
+		5430E2AB1B7CAA3B006CBB58 /* touxiang.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E29C1B7CAA3B006CBB58 /* touxiang.png */; };
+		5430E2AC1B7CAA3B006CBB58 /* xingxing.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E29D1B7CAA3B006CBB58 /* xingxing.png */; };
+		5430E2AD1B7CAA3B006CBB58 /* yao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5430E29E1B7CAA3B006CBB58 /* yao.png */; };
+		544DAF761B60DE3A006828DF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544DAF751B60DE3A006828DF /* CFNetwork.framework */; };
+		544DAF781B60E140006828DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544DAF771B60E140006828DF /* SystemConfiguration.framework */; };
+		546864F61B81DD56000563A0 /* BluetoothModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 546864F51B81DD56000563A0 /* BluetoothModel.m */; };
+		546864FA1B81F4E1000563A0 /* BluetoothCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 546864F81B81F4E1000563A0 /* BluetoothCell.m */; };
+		546864FB1B81F4E1000563A0 /* BluetoothCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 546864F91B81F4E1000563A0 /* BluetoothCell.xib */; };
+		547C16521B8578B1003A2A57 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C16511B8578B1003A2A57 /* BlueViewController.m */; };
+		547C16551B857B9F003A2A57 /* BLEInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C16541B857B9F003A2A57 /* BLEInfo.m */; };
+		5492BB461BE0F4D30040754C /* BeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492BB451BE0F4D30040754C /* BeaconViewController.m */; };
+		5492BB481BE0F5260040754C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5492BB471BE0F5260040754C /* CoreLocation.framework */; };
+		549852301C3271F9008958DF /* beep.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 5498522F1C3271F9008958DF /* beep.m4r */; };
+		54A2E7B21B83171100F5209D /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A2E7B11B83171100F5209D /* NSString+Hashing.m */; };
+		54B4AC751B71F2D200C8E1E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B4AC741B71F2D200C8E1E6 /* CoreGraphics.framework */; };
+		54B4AC771B71F2E200C8E1E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B4AC761B71F2E200C8E1E6 /* Foundation.framework */; };
+		54B4AC791B71F2EE00C8E1E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B4AC781B71F2EE00C8E1E6 /* UIKit.framework */; };
+		54B4AC7C1B71F3E000C8E1E6 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B4AC7B1B71F3E000C8E1E6 /* RecordViewController.m */; };
+		54B4AC7E1B71FF9E00C8E1E6 /* Beat It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54B4AC7D1B71FF9E00C8E1E6 /* Beat It.mp3 */; };
+		54B4AC801B72046E00C8E1E6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B4AC7F1B72046E00C8E1E6 /* AudioToolbox.framework */; };
+		54BA73F21C21145E001493FB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BA73F11C21145E001493FB /* CoreBluetooth.framework */; };
+		54C136DD1B79912D00E4E481 /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C136DC1B79912D00E4E481 /* BluetoothViewController.m */; };
+		54C136E31B79C43500E4E481 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C136E01B79C43500E4E481 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		54C136E41B79C43500E4E481 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C136E21B79C43500E4E481 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		54CACB9C1B60C2ED0042054F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CACB9B1B60C2ED0042054F /* main.m */; };
 		54CACB9F1B60C2ED0042054F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CACB9E1B60C2ED0042054F /* AppDelegate.m */; };
-		54CACBA21B60C2ED0042054F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CACBA11B60C2ED0042054F /* ViewController.m */; };
-		54CACBA51B60C2ED0042054F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CACBA31B60C2ED0042054F /* Main.storyboard */; };
 		54CACBA71B60C2ED0042054F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CACBA61B60C2ED0042054F /* Images.xcassets */; };
 		54CACBAA1B60C2ED0042054F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CACBA81B60C2ED0042054F /* LaunchScreen.xib */; };
 		54CACBB61B60C2ED0042054F /* FindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CACBB51B60C2ED0042054F /* FindTests.m */; };
+		54E89E261BA8FDB500A108DD /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E89E251BA8FDB500A108DD /* MusicViewController.m */; };
+		54E89E281BA9079600A108DD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E89E271BA9079600A108DD /* MediaPlayer.framework */; };
+		54F0A2441B61F9BD00F81090 /* me.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54F0A2431B61F9BD00F81090 /* me.mobileconfig */; };
+		54F0A2491B624C8F00F81090 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F0A2481B624C8F00F81090 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +69,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54037F211B706B0600C73B75 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		54037F221B706B0600C73B75 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		54037F241B708CBA00C73B75 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		54037F251B708CBA00C73B75 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		54037F271B7095D700C73B75 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		54037F291B7099AD00C73B75 /* TwoGoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoGoViewController.h; sourceTree = "<group>"; };
+		54037F2A1B7099AD00C73B75 /* TwoGoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoGoViewController.m; sourceTree = "<group>"; };
+		5430E2901B7CAA3B006CBB58 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		5430E2911B7CAA3B006CBB58 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		5430E2921B7CAA3B006CBB58 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		5430E2931B7CAA3B006CBB58 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		5430E2941B7CAA3B006CBB58 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		5430E2951B7CAA3B006CBB58 /* lian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lian.png; sourceTree = "<group>"; };
+		5430E2961B7CAA3B006CBB58 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5430E2971B7CAA3B006CBB58 /* pinglun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinglun.png; sourceTree = "<group>"; };
+		5430E2981B7CAA3B006CBB58 /* qr_scan_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_scan_line@2x.png"; sourceTree = "<group>"; };
+		5430E2991B7CAA3B006CBB58 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		5430E29A1B7CAA3B006CBB58 /* sao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sao.png; sourceTree = "<group>"; };
+		5430E29B1B7CAA3B006CBB58 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		5430E29C1B7CAA3B006CBB58 /* touxiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touxiang.png; sourceTree = "<group>"; };
+		5430E29D1B7CAA3B006CBB58 /* xingxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xingxing.png; sourceTree = "<group>"; };
+		5430E29E1B7CAA3B006CBB58 /* yao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yao.png; sourceTree = "<group>"; };
+		544DAF751B60DE3A006828DF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		544DAF771B60E140006828DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		546864F41B81DD56000563A0 /* BluetoothModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothModel.h; sourceTree = "<group>"; };
+		546864F51B81DD56000563A0 /* BluetoothModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothModel.m; sourceTree = "<group>"; };
+		546864F71B81F4E1000563A0 /* BluetoothCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCell.h; sourceTree = "<group>"; };
+		546864F81B81F4E1000563A0 /* BluetoothCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCell.m; sourceTree = "<group>"; };
+		546864F91B81F4E1000563A0 /* BluetoothCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothCell.xib; sourceTree = "<group>"; };
+		547C16501B8578B1003A2A57 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		547C16511B8578B1003A2A57 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		547C16531B857B9F003A2A57 /* BLEInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEInfo.h; sourceTree = "<group>"; };
+		547C16541B857B9F003A2A57 /* BLEInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEInfo.m; sourceTree = "<group>"; };
+		5492BB441BE0F4D30040754C /* BeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconViewController.h; sourceTree = "<group>"; };
+		5492BB451BE0F4D30040754C /* BeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconViewController.m; sourceTree = "<group>"; };
+		5492BB471BE0F5260040754C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5498522F1C3271F9008958DF /* beep.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = beep.m4r; sourceTree = "<group>"; };
+		54A2E7B01B83171100F5209D /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		54A2E7B11B83171100F5209D /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		54B4AC741B71F2D200C8E1E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54B4AC761B71F2E200C8E1E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54B4AC781B71F2EE00C8E1E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54B4AC7A1B71F3E000C8E1E6 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		54B4AC7B1B71F3E000C8E1E6 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		54B4AC7D1B71FF9E00C8E1E6 /* Beat It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beat It.mp3"; sourceTree = "<group>"; };
+		54B4AC7F1B72046E00C8E1E6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		54BA73F11C21145E001493FB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		54C136DB1B79912D00E4E481 /* BluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
+		54C136DC1B79912D00E4E481 /* BluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
+		54C136DF1B79C43500E4E481 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		54C136E01B79C43500E4E481 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		54C136E11B79C43500E4E481 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		54C136E21B79C43500E4E481 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 		54CACB961B60C2ED0042054F /* Find.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Find.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CACB9A1B60C2ED0042054F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54CACB9B1B60C2ED0042054F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54CACB9D1B60C2ED0042054F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54CACB9E1B60C2ED0042054F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		54CACBA01B60C2ED0042054F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		54CACBA11B60C2ED0042054F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		54CACBA41B60C2ED0042054F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54CACBA61B60C2ED0042054F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		54CACBA91B60C2ED0042054F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		54CACBAF1B60C2ED0042054F /* FindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CACBB41B60C2ED0042054F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54CACBB51B60C2ED0042054F /* FindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindTests.m; sourceTree = "<group>"; };
+		54E89E241BA8FDB500A108DD /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		54E89E251BA8FDB500A108DD /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		54E89E271BA9079600A108DD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		54F0A2431B61F9BD00F81090 /* me.mobileconfig */ = {isa = PBXFileReference; lastKnownFileType = file; path = me.mobileconfig; sourceTree = "<group>"; };
+		54F0A2471B624C8F00F81090 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		54F0A2481B624C8F00F81090 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +145,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54BA73F21C21145E001493FB /* CoreBluetooth.framework in Frameworks */,
+				5492BB481BE0F5260040754C /* CoreLocation.framework in Frameworks */,
+				54E89E281BA9079600A108DD /* MediaPlayer.framework in Frameworks */,
+				54B4AC801B72046E00C8E1E6 /* AudioToolbox.framework in Frameworks */,
+				54B4AC791B71F2EE00C8E1E6 /* UIKit.framework in Frameworks */,
+				54B4AC771B71F2E200C8E1E6 /* Foundation.framework in Frameworks */,
+				54B4AC751B71F2D200C8E1E6 /* CoreGraphics.framework in Frameworks */,
+				54037F281B7095D700C73B75 /* AVFoundation.framework in Frameworks */,
+				544DAF781B60E140006828DF /* SystemConfiguration.framework in Frameworks */,
+				544DAF761B60DE3A006828DF /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +168,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5430E28F1B7CAA3B006CBB58 /* 图 */ = {
+			isa = PBXGroup;
+			children = (
+				5430E2901B7CAA3B006CBB58 /* image.png */,
+				5430E2911B7CAA3B006CBB58 /* image1.png */,
+				5430E2921B7CAA3B006CBB58 /* image2.png */,
+				5430E2931B7CAA3B006CBB58 /* image3.png */,
+				5430E2941B7CAA3B006CBB58 /* left.png */,
+				5430E2951B7CAA3B006CBB58 /* lian.png */,
+				5430E2961B7CAA3B006CBB58 /* logo.png */,
+				5430E2971B7CAA3B006CBB58 /* pinglun.png */,
+				5430E2981B7CAA3B006CBB58 /* qr_scan_line@2x.png */,
+				5430E2991B7CAA3B006CBB58 /* right.png */,
+				5430E29A1B7CAA3B006CBB58 /* sao.png */,
+				5430E29B1B7CAA3B006CBB58 /* star.png */,
+				5430E29C1B7CAA3B006CBB58 /* touxiang.png */,
+				5430E29D1B7CAA3B006CBB58 /* xingxing.png */,
+				5430E29E1B7CAA3B006CBB58 /* yao.png */,
+			);
+			path = "图";
+			sourceTree = "<group>";
+		};
+		54A2E7AF1B83171100F5209D /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				54A2E7B01B83171100F5209D /* NSString+Hashing.h */,
+				54A2E7B11B83171100F5209D /* NSString+Hashing.m */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
+		54C136DE1B79C43500E4E481 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				54C136DF1B79C43500E4E481 /* AsyncSocket.h */,
+				54C136E01B79C43500E4E481 /* AsyncSocket.m */,
+				54C136E11B79C43500E4E481 /* AsyncUdpSocket.h */,
+				54C136E21B79C43500E4E481 /* AsyncUdpSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = "<group>";
+		};
 		54CACB8D1B60C2ED0042054F = {
 			isa = PBXGroup;
 			children = (
+				54BA73F11C21145E001493FB /* CoreBluetooth.framework */,
+				5492BB471BE0F5260040754C /* CoreLocation.framework */,
+				54E89E271BA9079600A108DD /* MediaPlayer.framework */,
+				54A2E7AF1B83171100F5209D /* Hash */,
+				54C136DE1B79C43500E4E481 /* AsyncSocket */,
+				54B4AC7F1B72046E00C8E1E6 /* AudioToolbox.framework */,
+				54B4AC7D1B71FF9E00C8E1E6 /* Beat It.mp3 */,
+				5498522F1C3271F9008958DF /* beep.m4r */,
+				54B4AC781B71F2EE00C8E1E6 /* UIKit.framework */,
+				54B4AC761B71F2E200C8E1E6 /* Foundation.framework */,
+				54B4AC741B71F2D200C8E1E6 /* CoreGraphics.framework */,
+				54037F271B7095D700C73B75 /* AVFoundation.framework */,
+				54F0A2431B61F9BD00F81090 /* me.mobileconfig */,
+				544DAF771B60E140006828DF /* SystemConfiguration.framework */,
+				544DAF751B60DE3A006828DF /* CFNetwork.framework */,
 				54CACB981B60C2ED0042054F /* Find */,
 				54CACBB21B60C2ED0042054F /* FindTests */,
 				54CACB971B60C2ED0042054F /* Products */,
@@ -81,11 +246,34 @@
 		54CACB981B60C2ED0042054F /* Find */ = {
 			isa = PBXGroup;
 			children = (
+				5430E28F1B7CAA3B006CBB58 /* 图 */,
 				54CACB9D1B60C2ED0042054F /* AppDelegate.h */,
 				54CACB9E1B60C2ED0042054F /* AppDelegate.m */,
-				54CACBA01B60C2ED0042054F /* ViewController.h */,
-				54CACBA11B60C2ED0042054F /* ViewController.m */,
-				54CACBA31B60C2ED0042054F /* Main.storyboard */,
+				54037F241B708CBA00C73B75 /* RootViewController.h */,
+				54037F251B708CBA00C73B75 /* RootViewController.m */,
+				54F0A2471B624C8F00F81090 /* WebViewController.h */,
+				54F0A2481B624C8F00F81090 /* WebViewController.m */,
+				54037F211B706B0600C73B75 /* TwoViewController.h */,
+				54037F221B706B0600C73B75 /* TwoViewController.m */,
+				54037F291B7099AD00C73B75 /* TwoGoViewController.h */,
+				54037F2A1B7099AD00C73B75 /* TwoGoViewController.m */,
+				54B4AC7A1B71F3E000C8E1E6 /* RecordViewController.h */,
+				54B4AC7B1B71F3E000C8E1E6 /* RecordViewController.m */,
+				54C136DB1B79912D00E4E481 /* BluetoothViewController.h */,
+				54C136DC1B79912D00E4E481 /* BluetoothViewController.m */,
+				546864F41B81DD56000563A0 /* BluetoothModel.h */,
+				546864F51B81DD56000563A0 /* BluetoothModel.m */,
+				546864F71B81F4E1000563A0 /* BluetoothCell.h */,
+				546864F81B81F4E1000563A0 /* BluetoothCell.m */,
+				546864F91B81F4E1000563A0 /* BluetoothCell.xib */,
+				547C16501B8578B1003A2A57 /* BlueViewController.h */,
+				547C16511B8578B1003A2A57 /* BlueViewController.m */,
+				547C16531B857B9F003A2A57 /* BLEInfo.h */,
+				547C16541B857B9F003A2A57 /* BLEInfo.m */,
+				5492BB441BE0F4D30040754C /* BeaconViewController.h */,
+				5492BB451BE0F4D30040754C /* BeaconViewController.m */,
+				54E89E241BA8FDB500A108DD /* MusicViewController.h */,
+				54E89E251BA8FDB500A108DD /* MusicViewController.m */,
 				54CACBA61B60C2ED0042054F /* Images.xcassets */,
 				54CACBA81B60C2ED0042054F /* LaunchScreen.xib */,
 				54CACB991B60C2ED0042054F /* Supporting Files */,
@@ -199,9 +387,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CACBA51B60C2ED0042054F /* Main.storyboard in Resources */,
+				5430E2A51B7CAA3B006CBB58 /* logo.png in Resources */,
+				5430E2A31B7CAA3B006CBB58 /* left.png in Resources */,
+				5430E2A91B7CAA3B006CBB58 /* sao.png in Resources */,
+				54F0A2441B61F9BD00F81090 /* me.mobileconfig in Resources */,
+				546864FB1B81F4E1000563A0 /* BluetoothCell.xib in Resources */,
+				5430E2A21B7CAA3B006CBB58 /* image3.png in Resources */,
+				5430E2A01B7CAA3B006CBB58 /* image1.png in Resources */,
+				5430E2AD1B7CAA3B006CBB58 /* yao.png in Resources */,
 				54CACBAA1B60C2ED0042054F /* LaunchScreen.xib in Resources */,
+				549852301C3271F9008958DF /* beep.m4r in Resources */,
+				5430E2A61B7CAA3B006CBB58 /* pinglun.png in Resources */,
+				5430E29F1B7CAA3B006CBB58 /* image.png in Resources */,
+				5430E2AA1B7CAA3B006CBB58 /* star.png in Resources */,
+				5430E2A81B7CAA3B006CBB58 /* right.png in Resources */,
+				54B4AC7E1B71FF9E00C8E1E6 /* Beat It.mp3 in Resources */,
 				54CACBA71B60C2ED0042054F /* Images.xcassets in Resources */,
+				5430E2AC1B7CAA3B006CBB58 /* xingxing.png in Resources */,
+				5430E2AB1B7CAA3B006CBB58 /* touxiang.png in Resources */,
+				5430E2A71B7CAA3B006CBB58 /* qr_scan_line@2x.png in Resources */,
+				5430E2A11B7CAA3B006CBB58 /* image2.png in Resources */,
+				5430E2A41B7CAA3B006CBB58 /* lian.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +425,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CACBA21B60C2ED0042054F /* ViewController.m in Sources */,
+				54E89E261BA8FDB500A108DD /* MusicViewController.m in Sources */,
 				54CACB9F1B60C2ED0042054F /* AppDelegate.m in Sources */,
+				54C136E41B79C43500E4E481 /* AsyncUdpSocket.m in Sources */,
+				54C136DD1B79912D00E4E481 /* BluetoothViewController.m in Sources */,
+				54037F261B708CBA00C73B75 /* RootViewController.m in Sources */,
+				547C16521B8578B1003A2A57 /* BlueViewController.m in Sources */,
+				546864FA1B81F4E1000563A0 /* BluetoothCell.m in Sources */,
+				54A2E7B21B83171100F5209D /* NSString+Hashing.m in Sources */,
+				547C16551B857B9F003A2A57 /* BLEInfo.m in Sources */,
+				54C136E31B79C43500E4E481 /* AsyncSocket.m in Sources */,
 				54CACB9C1B60C2ED0042054F /* main.m in Sources */,
+				54037F231B706B0600C73B75 /* TwoViewController.m in Sources */,
+				546864F61B81DD56000563A0 /* BluetoothModel.m in Sources */,
+				54F0A2491B624C8F00F81090 /* WebViewController.m in Sources */,
+				54B4AC7C1B71F3E000C8E1E6 /* RecordViewController.m in Sources */,
+				54037F2B1B7099AD00C73B75 /* TwoGoViewController.m in Sources */,
+				5492BB461BE0F4D30040754C /* BeaconViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +464,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54CACBA31B60C2ED0042054F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54CACBA41B60C2ED0042054F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54CACBA81B60C2ED0042054F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,9 +561,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaokun Liu (3R2C6Z2D6T)";
 				INFOPLIST_FILE = Find/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3edd8138-f673-43e9-93b0-1936bcb2070c";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -359,9 +575,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaokun Liu (3R2C6Z2D6T)";
 				INFOPLIST_FILE = Find/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3edd8138-f673-43e9-93b0-1936bcb2070c";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -418,6 +638,7 @@
 				54CACBBB1B60C2ED0042054F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54CACBBC1B60C2ED0042054F /* Build configuration list for PBXNativeTarget "FindTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +647,7 @@
 				54CACBBE1B60C2ED0042054F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
